@@ -1,0 +1,6 @@
+## output documents:
+*.pdf
+
+## ctx auxiliary files:
+*.tuc
+*.log

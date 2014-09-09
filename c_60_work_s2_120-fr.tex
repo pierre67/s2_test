@@ -1,0 +1,328 @@
+\startcomponent c_60_work_s2_120-fr
+
+
+\startchapter [title={Votre Urban-Sweeper au quotidien},
+							reference={chap:using}]
+
+\setups [pagestyle:marginless]
+
+
+% \placefig[margin][fig:ignition:key]{Clé de contact}
+% {\externalfigure [work:ignition:key]}
+\startregister[index][chap:using]{mise en service}
+
+\startsection [title={Mise en service},
+							reference={sec:using:start}]
+
+
+\startSteps
+\item Assurez||vous que le contrôle technique requis ait été effectué selon la procédure correcte.
+\item Démarrez le moteur diesel au moyen de la clé de contact~— mettre le contact,
+maintenir la clé dans le sens horaire jusqu’au démarrage du moteur, puis relâcher~–
+placée sur le côté droit de la colonne de direction (possible uniquement si le levier sélecteur de marche est
+placé en position neutre).
+\stopSteps
+
+\start
+\setupcombinations [width=\textwidth]
+
+\placefig[here][fig:select:drive]{Levier sélecteur de marche}
+{\startcombination [2*1]
+{\externalfigure [work:select:fDrive]}{Sélecteur en position de marche avant}
+{\externalfigure [work:select:rDrive]}{Sélecteur en position de marche arrière}
+\stopcombination}
+\stop
+
+
+\startSteps [continue]
+\item Pivotez le sélecteur pour sélectionnez un rapport en mode \quote{transport}:
+\startitemize [R]
+\item Premier rapport
+\item Deuxième rapport (démarre automatiquement sur le premier rapport)
+\stopitemize
+
+ou pressez sur le bouton à l’extrémité du levier pour activer|/|désactiver le mode \quote{travail}.
+\stopSteps
+
+\startbuffer [work:config]
+\starttextbackground [FC]
+\startPictPar
+\PMrtfm
+\PictPar
+En mode travail, le premier rapport est automatiquement enclenché et le moteur diesel
+tourne à 1300 min\high{\textminus 1}.
+
+Utilisez les boutons \textSymb{joy_key_engine_increase} et \textSymb{joy_key_engine_decrease}
+sur la console de commande pour modifier le régime du moteur.
+\stopPictPar
+\stoptextbackground
+\stopbuffer
+
+\getbuffer [work:config]
+
+
+\startSteps [continue]
+\item Soulevez le sélecteur de marche et positionnez-le en marche avant (vers l’avant) ou marche arrière (voir illustrations ci-dessus).
+\item Libérez complètement le frein à main avant d’accélérer.
+\stopSteps
+
+\starttextbackground [FC]
+\startPictPar
+\PMrtfm
+\PictPar
+{\md Libérez complètement le frein à main!} La position du levier de frein à main est surveillée par un capteur électronique.
+Si le levier de frein à main n’est pas complètement abaissé, la vitesse du véhicule est limitée à 5\,km/h.
+\stopPictPar
+\stoptextbackground
+
+\startSteps [continue]
+\item Pressez progressivement sur la pédale de l’accélérateur pour mettre la machine en mouvement.
+\stopSteps
+
+
+
+\subsection [sSec:suctionClap] {Clapet du canal d’aspiration}
+
+Le système d’aspiration génère un flux d’air aspiré depuis la bouche d’aspiration vers la
+cuve à déchets, via le canal d’aspiration ou l’embouchure du tuyau d’aspiration à main (disponible en option).
+
+Un clapet à commande manuelle (voir \in{fig.}[fig:suctionClap]) permet de choisir l’un ou l’autre selon
+le service souhaité.
+
+\placefig [here] [fig:suctionClap] {Clapet du canal d’aspiration}
+{\startcombination [2*1]
+{\externalfigure [work:suctionClap:open]}{Canal d’aspiration ouvert}
+{\externalfigure [work:suctionClap:closed]}{Canal d’aspiration fermé}
+\stopcombination}
+
+
+En service normal~– aspiration par la bouche d’aspiration~– le canal d’aspiration doit être ouvert
+(levier de commande placé vers le haut).
+
+Pour utiliser le tuyau d’aspiration à main, le canal d’aspiration doit être fermé
+(levier de commande placé vers le bas). Ainsi, l’air aspiré passera par l’embouchure du tuyau
+d’aspiration à main.
+
+
+
+
+\stopsection
+
+
+
+\startsection [title={Mise hors service},
+							reference={sec:using:stop}]
+
+\index{mise hors service}
+
+\startSteps
+\item Actionnez le frein à main~— le levier de commande du frein de stationnement est placé entre les deux sièges~— et placez le sélecteur de marche en position \quote{neutre}.
+\item Effectuez le contrôle technique requis~– quotidien et hebdomadaire si nécessaire~– selon la procédure \atpage[table:scheduledaily].
+\stopSteps
+
+\getbuffer [prescription:handbrake]
+
+
+\stopsection
+
+
+
+\startsection [title={Balayage et aspiration des déchets},
+							reference={sec:using:work},
+							]
+
+\startSteps
+\item Procédez\index{balayage} à la mise en service du véhicule selon la procédure décrite \in{§}[sec:using:start], \atpage[sec:using:start].
+\item Activez\index{aspiration} le mode \quote{travail} (pressez sur le bouton à l’extrémité du sélecteur de marche).
+\stopSteps
+
+% \getbuffer [work:config]
+
+\startSteps [continue]
+\item Pressez la touche \textSymb{joy_key_suction_brush} pour actionner la turbine et la rotation des balais.
+
+{\md Variante:} {\lt pressez la touche \textSymb{joy_key_suction} pour ne travailler qu’avec la bouche d’aspiration.}
+
+\item Ajustez la vitesse de rotation des balais au moyen des touches \textSymb{joy_key_frontbrush_increase}
+et \textSymb{joy_key_frontbrush_decrease} de la console de médiane.
+
+\item Positionnez les balais au moyen de leur joystick respectif pour adapter la largeur de travail efficace en fonction
+de la chaussée.
+
+\stopSteps
+
+\vfill
+
+\start
+\setupcombinations [width=\textwidth]
+
+\placefig[here][fig:brush:position]{Positionnement des balais}
+{\startcombination [2*1]
+{\externalfigure [work:brushes:enlarge]}{Ajustez l’écartement d’un|/|des balais}
+{\externalfigure [work:brush:left:raise]}{Adaptez la hauteur d’un|/|des balais}
+\stopcombination}
+\stop
+
+\page [yes]
+
+
+\subsubsubject{Humectage des balais et du canal d’aspiration}
+
+Pressez\index{balayage+humectage} sur l’interrupteur \textSymb{temoin_busebalais} 3 positions (0|/|arrêt-1-2) placé entre les deux sièges.
+
+{\md Position 1:} Lorsque les balais sont activés, la pompe à eau alimente automatiquement le système d’humectage des balais.
+
+{\md Position 2:} La pompe à eau est enclenchée en permanence (par ex. pour effectuer des réglages).
+
+
+
+
+\subsubsubject{Faire passer les gros déchets}
+
+\startSteps [continue]
+\item Si un objet de grande taille~– une bouteille PET de grande taille ou autres~–
+vient\index{bouche d’aspiration+gros déchets} obstruer la bouche d’aspiration,
+utilisez les touches latérales de la console multifonction pour ouvrir
+le clapet pour gros déchets\index{clapet pour gros déchets} ou~– si cela n’est pas suffisant~–
+soulever momentanément la bouche d’aspiration.
+\stopSteps
+
+\start
+\setupcombinations [width=\textwidth]
+
+\placefig[here][fig:suctionMouth:clap]{Solutions pour les gros déchets}
+{\startcombination [2*1]
+{\externalfigure [work:suction:open]}{Ouvrez le clapet pour gros déchets}
+{\externalfigure [work:suction:raise]}{Soulevez momentanément la bouche d’aspiration}
+\stopcombination}
+\stop
+
+\stopsection
+
+\startsection [title={Vidange de la cuve à déchets},
+							reference={sec:using:container},
+							]
+
+
+\startSteps
+\item Placez la balayeuse\index{cuve à déchets+vidange} sur un emplacement prévu à cet effet,
+en conformité avec la législation en vigueur,
+notamment en matière de protection de l’environnement.
+\item Tirez le frein à main (sans quoi la commande n’est pas disponible).
+\stopSteps
+
+\getbuffer [prescription:container:gravity]
+
+
+\startSteps [continue]
+\item Déverrouillez|/|ouvrez le couvercle de la cuve à déchets.
+\item Pressez sur l’interrupteur \textSymb{temoin_kipp2}~– placé entre les deux sièges~– pour basculer la cuve.
+\item Lorsque la cuve est vide, lavez l’intérieur avec un jet d’eau sous pression
+(utilisez le pistolet d’eau intégré, disponible en option).
+\stopSteps
+
+\start
+\setupcombinations [width=\textwidth]
+
+\placefig[here][fig:brush:adjust]{Manipulation de la cuve à déchets}
+{\startcombination [3*1]
+{\externalfigure [container:cover:unlock]}{Verrouillage du couvercle}
+{\externalfigure [container:safety:unlocked]}{Sécurité anti||écrasement}
+{\externalfigure [container:safety:locked]}{Sécurité verrouillée}
+\stopcombination}
+\stop
+
+\startSteps [continue]
+\item Vérifiez|/|nettoyez les joints et plan||joints de la cuve et du système de recyclage et le canal d’aspiration.
+\stopSteps
+
+\getbuffer [prescription:container:tilt]
+
+
+\startSteps [continue]
+\item Pressez sur le dos de l’interrupteur \textSymb{temoin_kipp2} pour abaisser la cuve à déchets
+(retirez les sécurités anti||écrasement sur les vérins si nécessaire).
+\item Verrouillez le couvercle de la cuve à déchets.
+\stopSteps
+
+\stopsection
+
+
+
+\startsection [title={Tuyau d’aspiration à main},
+							reference={sec:using:suction:hose},
+							]
+
+La balayeuse \sdeux peut être équipée~– en option~– d’un tuyau d’aspiration\index{tuyau d’aspiration à main} à main. Il est placé sur le couvercle de la cuve, son utilisation est simple.
+
+{\sla Prérequis:}
+
+La cuve à déchets doit être complètement abaissée, la machine est en mode \quote{travail} (voir \in{§}[sec:using:start], \atpage[sec:using:start]).
+
+\startfigtext[left][fig:using:suction:hose]{Tuyau d’aspiration à main}
+{\externalfigure[work:suction:hose]}
+\startSteps
+\item Pressez la touche \textSymb{temoin_aspiration_manuelle}~– sur la console de plafond~– pour activer le système d’aspiration.
+\item Tirez fermement le frein à main (avant de quitter le poste de conduite).
+\item Fermez le clapet du canal d’aspiration (voir \in{§}[sSec:suctionClap], \atpage[sSec:suctionClap]).
+\item Retirez l’embout du tuyau d’aspiration de son emplacement et commencez votre mission.
+\item Lorsque votre mission est terminée, pressez la touche \textSymb{temoin_aspiration_manuelle} pour
+désactiver le système d’aspiration et ouvrez à nouveau le clapet du canal d’aspiration.
+\stopSteps
+\stopfigtext
+
+\stopsection
+
+\page [yes]
+
+\setups[pagestyle:normal]
+
+
+\startsection [title={Pistolet d’eau haute pression},
+							reference={sec:using:water:spray},
+							]
+
+La balayeuse \sdeux peut être équipée~– en option~– d’un pistolet d’eau\index{pistolet d’eau} haute pression.
+Le pistolet est placé derrière le portillon arrière droit. Il est raccordé à un dérouleur de tuyau (10\,m)
+placé sur le côté opposé de la machine.
+Pour utiliser ce dispositif, procédez comme suit:
+
+{\sla Prérequis:}
+
+Le réservoir d’eau claire contient suffisamment d’eau, la machine est en mode \quote{travail} (voir \in{§}[sec:using:start], \atpage[sec:using:start]).
+
+\placefig[margin][fig:using:water:spray]{Pistolet d’eau haute pression}
+{\externalfigure[work:water:spray]}
+
+\startSteps
+\item Pressez la touche \textSymb{temoin_buse}~– sur la console de plafond~– pour activer la pompe à eau haute pression.
+\item Tirez fermement le frein à main (avant de quitter le poste de conduite).
+\item Ouvrez le portillon latéral arrière droit et saisissez le pistolet d’eau.
+\item Tirez sur le tuyau pour le faire dérouler à votre convenance et commencez votre mission.
+\item Lorsque votre mission est terminée, pressez à nouveau la touche \textSymb{temoin_buse}
+pour désactiver la pompe à eau haute pression.
+\item Exercez une brève traction sur le tuyau pour lâcher le cran de blocage et enrouler le tuyau.
+\item Remettez le pistolet dans son logement et fermez le portillon latéral.
+\stopSteps
+
+
+
+\stopsection
+
+
+\stopregister[index][chap:using]
+
+
+
+
+
+
+
+
+
+
+\stopchapter
+\stopcomponent
+
+
+

@@ -1,0 +1,129 @@
+\startproduct   prd_ba_s2_110-fr
+
+\enablemode[%
+        screen,
+%         print,
+        myriadpro,
+        ]
+
+
+\project prj_ba_s2
+
+\version		[final]
+\setups [FRENCH,VpFRENCH]
+
+
+\definesynonyms	[ProductAbbreviation][ProductAbbreviations][\ProdFull]
+\setupsynonyms	[ProductAbbreviation][next=\autoinsertnextspace]
+
+\ProductAbbreviation	[ProductId]	{Urban-Sweeper~S2}		{Urban-Sweeper~S2}
+\ProductAbbreviation	[PRoductId]	{Urban-Sweeper~S2}		{Urban-Sweeper~S2}
+
+\startmode[screen]
+
+\setupexternalfigures[directory={%
+../../pictures/S2/img_std_co,
+../../pictures/S2/img_vpad_co,
+../../pictures/pictographs_co,
+../../pictures/S2/fuses,
+}]
+
+\setupinteraction
+  [state=start,
+   style=,
+   color=LinkColor,
+   openaction={firstpage,UseOutlines},
+   menu=on,
+   display=TwoColumn,
+   title={Manuel d’utilisation S2},
+   author={Pierre Bovet (Rédaction technique Boschung Matran)},
+   subtitle={avec plan d’entretien},
+   keyword={S2, Manuel d’utilisation, plan d’entretien, manuel}
+  ]
+\stopmode
+\startmode[print]
+
+\setupexternalfigures[directory={%
+../../pictures/S2/img_std,
+../../pictures/S2/img_vpad,
+../../pictures/pictographs,
+../../pictures/S2/fuses,
+}]
+
+\setupinteraction
+  [state=stop,
+   style=,
+   color=LinkColor,
+   openaction={firstpage,UseOutlines},
+   menu=on,
+   display=TwoColumn,
+   title={Manuel d’utilisation S2},
+   author={Pierre Bovet (Rédaction technique Boschung Matran)},
+   subtitle={avec plan d’entretien},
+   keyword={S2, Manuel d’utilisation, plan d’entretien, manuel}
+  ]
+\stopmode
+\setupinteractionscreen [option=bookmark]
+\placebookmarks [part,chapter,section] [chapter,section]
+
+%%%%%%    mkiv settings    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcharacterspacing [frenchpunctuation]
+
+\def\TextSymHeight {2.0ex}
+
+\startfrontmatter
+	% \setuppagenumbering	[conversion=romannumerals]
+	\component c_00_front_s2_120-fr
+	\marking[header]{Table des matières}
+		\completecontent
+
+\stopfrontmatter
+
+\startbodymatter
+\define\LASTchapter{10}
+% \showframe
+\component c_10_security_s2_120-fr
+
+\component c_20_prescriptions_s2_120-fr
+
+\component c_30_overview_s2_120-fr
+
+\component c_40_control_s2_120-fr
+
+\component c_45_vpad_s2_120-fr
+
+\component c_60_work_s2_120-fr
+
+\component c_80_maintenance_s2_120-fr
+
+\component c_90_serviceplan_s2_120-fr
+
+
+%\page[yes,empty,right]
+\stopbodymatter
+
+\startbackmatter
+		\definelayer [bg:toc] [state=stop]
+		\marking[header]{Index des mots-clés}
+			\IndexHead{Index des mots-clés}
+			{\switchtobodyfont[small]
+			\placeindex[n=3]}
+		\page[yes,empty]
+			\marking[header]{Liste des figures}
+			\startcolumns[n=3]
+				\setupselector[caption][n=2]
+				\IndexHead{Liste des figures}
+				\placelist[fig]
+			\stopcolumns
+		\page[yes,empty]
+
+		\setuppagenumbering[state=stop]
+	\component c_99_back_s2_120-fr
+\stopbackmatter
+
+%\seeindex{régulateur de vitesse}{tempomat}
+
+% \showlayout
+\stopproduct
+

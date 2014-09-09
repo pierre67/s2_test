@@ -1,0 +1,78 @@
+\startcomponent c_00_front_s2_120-fr
+
+
+%\setups [FRENCH,pagestyle:frontmatter]
+
+\startboschungmakeup
+\setups[pagestyle:title]
+\startalignment[middle]
+
+\midaligned{\externalfigure[innentitel]}
+\blank[1*big]
+
+\definefont[AffiliationFont][Sans sa .55]
+\defineornament
+[SomeAffiliation]
+[rotation=,corner={right,bottom},location={left,bottom},
+voffset=-3pt,alternative=b,frame=off]
+[style=AffiliationFont,offset=6pt]
+
+{\bkd Manuel d’utilisation\godown [9pt]}
+
+\placefigure[none]{}
+{\SomeAffiliation
+{\BAversionFR; \BAdateFR}
+{\bfc\BosFull {Sdeux}}}
+
+\blank[2*big]
+
+{\tfx\BosFull{Boschung}|/|PBV; rédaction technique, Matran, CH}
+
+\stopalignment
+
+\stopboschungmakeup
+%
+\startboschungmakeup
+
+\setups[pagestyle:marginless]
+
+\setupwhitespace [medium]
+
+{\sla Impressum\;}
+\blank [medium]
+
+Chère cliente, cher client,\par
+Le présent manuel décrit la manière correcte d’utiliser votre véhicule édilitaire \BosFull{sdeux}.
+Avant la première mise en service de la \sdeux, lisez attentivement ce manuel afin de vous
+familiariser avec les commandes et leurs fonctions.
+Le véhicule ne peut être utilisé que pour les fins auxquelles il a été conçu.
+Tout autre usage est considéré comme non conforme. Pour tous dommages résultant d’une utilisation non conforme,
+la société \Boschung\ décline toute responsabilité.
+Le risque incombe à l’utilisateur. Une utilisation conforme comprend également
+le respect du carnet de maintenance et la notice d’entretien.
+\blank[medium]
+
+\starttextbackground[CB]
+Pour toutes questions ou suggestions au sujet de ce manuel, vous pouvez contacter la rédaction technique à l’adresse indiquée ci-dessous:
+
+\md
+{\Caps Marcel Boschung AG}\crlf
+Rédaction technique\crlf
+Route des Muëses 2\crlf
+CH-1753 Matran
+
+{\tt doc.mechanical@boschung.com}
+\stoptextbackground
+\blank[medium]
+
+\copyright\ \CopyrightyearFR\ Marcel Boschung AG Matran, \BAversionFR
+
+Langue originale du présent manuel: fr (français) et de (allemand). Toutes les autres versions sont des traductions de la version originale.
+
+Tous droits réservés. Toute représentation ou reproduction, même partielle, avec quel procédé que ce soit, est strictement interdit sans l’autorisation préalable écrite de la société Marcel \Boschung.
+
+
+
+\stopboschungmakeup
+% \setups{pagestyle:normal}
+\stopcomponent

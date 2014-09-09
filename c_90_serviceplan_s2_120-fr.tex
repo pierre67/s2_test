@@ -1,0 +1,348 @@
+\startcomponent c_90_serviceplan_s2_120-fr
+
+
+\chapter[sec:schedule]{Plan d’entretien}
+
+
+\startregister[index][wartplan]{plan d’entretien+véhicule}
+
+\section{Généralités}
+
+
+\placeNote[][service_picto]{}{%
+\noteF
+\starttextrule{\Pmtcheck \enskip Qualification {\em contrôle} \enskip}
+Contrôles pouvant être effectués par une\index{calification+personnel de maintenance} personne du service d’exploitation sans aide externe, à condition de posséder les connaissance de base en mécanique automobile.
+\stoptextrule \blank[line]
+\starttextrule{\Pmtpro \enskip Qualification {\em entretien} \enskip}
+Travaux d’entretien devant être effectués dans le cadre du programme de maintenance.
+L’entretien doit être effectué dans un atelier agréé disposant d’une main-d’oeuvre qualifiée et l’outillage nécessaire
+\stoptextrule \blank[line]
+\starttextrule{\Pmtspecial \enskip Qualification {\em travaux spéciaux} \enskip}
+Travaux d’entretien particuliers\index{travaux spéciaux} ne pouvant être effectués que par une personne ayant reçu une formation spécifique reconnue par le service après||vente \BoschungNote.
+\stoptextrule \blank[line]
+\starttextrule{\Pmtvisual \enskip Type {\em Contrôle visuel} \enskip}
+Point de contrôle à effectuer par un\index{contrôle visuel} contrôle visuel. Les éventuels dommages ou défauts de fonctionnement sont à communiquer à la personne compétente.
+\stoptextrule
+}
+
+Lors des travaux d’entretien, il faut distinguer trois échelons de qualification (personnel|/|équipement) et quatre types d’entretien (type de travail).
+
+\startTwoPar
+{\em Échelons de qualification:}	\par \blank [medium]
+\start \setupwhitespace	[none]
+\symDescr{\textSymb{maint:check}} Contrôle (év. correction)\par
+\symDescr{\textSymb{maint:pro}} Travaux de service\par
+\symDescr{\textSymb{maint:special}} Travaux particuliers\par
+\stop
+\TwoPar
+{\em Types d’entretien:}\par \blank [medium]
+\start \setupwhitespace	[none]
+\symDescr{\textSymb{maint:visual}} Contrôle visuel\par
+\symDescr{\textSymb{maint:function}} Contrôle de fonctionnement\par
+\symDescr{\textSymb{maint:level}} Contrôle|/|remplissage des niveaux\par
+\symDescr{\textSymb{maint:exchange}}Vidange de liquide\par
+\symDescr{\textSymb{maint:generic}}Autres activités\par
+\stop
+\stopTwoPar
+
+\handItem{Consultez les explications dans les colonnes périphériques.}
+
+
+\placeNote[][service_picto]{}{%
+ \noteF
+	\starttextrule{\Pmtfunction \enskip Contrlôle de fonctionnement \enskip}
+		Contrôler\index{contrôle+fonctionnement}, par contrôle visuel à l’extérieur, \eG\ le fonctionnement des freins,
+		l’état des composants, contrôler que tout soit bien fixé.
+	\stoptextrule \blank[big]
+	\starttextrule{\Pmtlevel \enskip Contrlôle de niveau \enskip}
+		Le\index{contrôle+niveaux} contrôle de niveau d’un élément comprend le contrôle~—
+		visuel ou avec la jauge~— ainsi que le complètement avec le liquide requis, {\em y compris le graissage central}.
+		Vous trouverez les informations nécessaires concernant les quantités et qualités requises \atpage[sec:liqquantities].
+	\stoptextrule \blank[big]
+	\starttextrule{\Pmtexchange \enskip Vidange \enskip}
+		La vidange\index{vidange} d’un élément comprend le remplacement du liquide ainsi que le contrôle du niveau.
+		Vous trouverez les informations nécessaires concernant les quantités et qualités requises \atpage[sec:liqquantities].
+	\stoptextrule \blank[big]
+	\starttextrule{\Pmtgeneric \enskip Divers \enskip}
+		Veuillez effectuer chaque opération d’entretien conformément aux instructions.
+	\stoptextrule
+}%
+
+\blank[big]
+\starttextbackground[FC]
+\setupparagraphs [PictPar][1][width=6em,inner=\hfill]
+\startPictPar\PMgeneric~\Penvironment\PictPar
+Veuillez considérer les prescriptions de sécurité et de protection de l’environnement lorsque vous entreprenez des travaux relatifs au plan de maintenance.
+\BosFull{boschung} ne répond pas des dommages matériels ou sur des personnes consécutifs au non respect des prescriptions.
+\stopPictPar
+\stoptextbackground
+
+\page [yes]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Plan d’entretien du véhicule}
+
+La maintenance du véhicule comprend les travaux d’entretien réguliers\index{contrôle périodique}, de contrôles périodiques (contrôles), ainsi qu’un premier service unique\footnote{Toutes les échéances de maintenance sont indiquées en heures de service.}:
+
+\starttextbackground[FC]
+ \starttabulate [|w(39mm)B|w(17mm)B|p({\dimexpr\textwidth-(56mm+2.5em)\relax})|]
+ \NC \Pmtpro\enskip\bf Travaux d’entretien \NC\bf 50\,h \NC Premier service après 50\,h\NC \NR
+ \NC \NC\bf 600\,h \NC Entretien régulier chaque 600\,h|/|12 mois \NC \NR
+ \NC \NC\bf 1'200\,h \NC Entretien régulier chaque 1'200\,h|/|2 ans \NC \NR
+ \NC \NC\bf 2'400\,h \NC Entretien régulier chaque 2'400\,h|/|4 ans \NC \NR
+ \NC \NC\bf 4'800\,h \NC Entretien régulier chaque 4'800\,h|/|8 ans \NC \NR
+ \NC \Pmtcheck\enskip\bf Liste de contrôle \NC Quotidien \NC Durant toute la saison de travail \NC\NR
+ \stoptabulate
+\stoptextbackground
+\blank [big]
+
+Le plan d’entretien ci||après se réfère au véhicule de base. Considérez également le plan d’entretien de chaque agrégat
+(\eG\ unité de balayage, cuve à déchets) dès \at{la page}[sec:schedaggr].
+
+
+La priorité dans le système de double échéance des intervalles de maintenance (\eG\ \quote{chaque 1'000\,h ou 2~ans}) est donnée à la première échéance atteinte.
+
+Le plan d’entretien~— excepté le premier service unique après 50\,h~— est cumulatif:
+le service 1'200\,h comprend le service des 600\,h {\em et} le service des 1'200\,h;
+le service des 2'400\,h comprend les services des 600\,h {\em et} le service des 1'200\,h
+{\em et} le service des 2'400\,h; etc.
+
+\page[yes]
+
+\setup[pagestyle:marginless]
+
+\start
+\setup[tbl:schedule]
+
+\subsection[table:scheduledaily]{Contrôle quotidien}
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Contrôle quotidien \eTD \bTD \Tcheck \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tgen \eTD \bTD Nettoyez le véhicule \eTD \bTD \Tcheck \eTD \bTD \inP[sec:cleaning] \eTD \eTR
+	\bTR \bTD \Tvis \eTD \bTD Contrôlez les dommages éventuels au véhicule \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tvis \eTD \bTD Contrôlez les fuites d’huile \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau d’huile moteur (avec la jauge!) \eTD \bTD \Tcheck \eTD \bTD \inP[ssSec:vw:oilLevel] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau du liquide de refroidissement du moteur \eTD \bTD \Tcheck \eTD \bTD \inP[sSec:vw:cooling] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau hydraulique (regard sur le réservoir) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:hydraulic] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau du carburant \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau du lave||glace \eTD \bTD \Tcheck \eTD \bTD \inP[sec:liqquantities] \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez le fonctionnement des témoins lumineux et de l’éclairage des instruments au tableau de bord \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez le fonctionnement du frein de stationnement \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez le fonctionnement de l’éclairage et de la signalisation du véhicule \eTD \bTD \Tcheck \eTD \bTD \inP[sec:lighting] \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+\subsection[table:scheduleweekly]{Contrôle hebdomadaire}
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Contrôle hebdomadaire \eTD \bTD \Tcheck \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la pression des pneus (selon pressions indiquées sur la plaquette dans la cabine) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:pneumatiques] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez|/|nettoyez la cartouche du filtre à air \eTD \bTD \Tcheck \eTD \bTD \inP[sSec:vw:airFilter] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Graissez tous les points de graissage (châssis, direction articulée) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:grasing:plan] \eTD \eTR
+\eTABLEbody
+\eTABLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection [sec:50h]{Entretien après 50\,h~— service unique}
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Entretien après 50\,h~— service unique \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau du liquide de refroidissement du moteur \eTD \bTD \Tcheck \eTD \bTD \inP[sSec:vw:cooling] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez|/|nettoyez la cartouche du filtre à air \eTD \bTD \Tcheck \eTD \bTD \inP[sSec:vw:airFilter] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez la tension de la courroie multi-V, remplacez||la si nécessaire \eTD \bTD \Tpro \eTD \bTD \inP[sSec:vw:belt] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Remplacez le filtre retour|/|aspiration hydraulique \eTD \bTD \Tcheck \eTD \bTD \inP[sec:hydraulic] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau hydraulique (regard sur le réservoir) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:hydraulic] \eTD \eTR
+% 	\bTR \bTD \Tlev \eTD \bTD Graissage central (Option): Contrôlez la réserve et la consistance du lubrifiant \eTD \bTD \Tpro \eTD \bTD \inP[main:graissageCentral] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Graissez tous les points de graissage (châssis, direction articulée) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:grasing:plan] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau du liquide lave||glace \eTD \bTD \Tcheck \eTD \bTD \inP[sec:liqquantities] \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez les éléments de fixation de la cabine \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez les éléments de fixation du moteur au châssis \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la fixation des pompes au moteur diesel \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la fixation du radiateur combiné de refroidissement \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la fixation des essieux \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez\index{couple de serrage+roues} le serrage des roues (180\,Nm) \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la pression des pneus (selon pressions indiquées sur la plaquette dans la cabine) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:pneumatiques] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez|/|réglez la course du levier de frein à main \eTD \bTD \Tpro \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez l’état de la batterie, nettoyer les bornes de contact \eTD \bTD \Tcheck \eTD \bTD \inP[sec:battcheck] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez|/|ajustez la diffusion du faisceau lumineux selon la législation en vigueur \eTD \bTD \Tcheck \eTD \bTD \inP[sec:lighting] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Graissez le noyau des électrovannes avec de la graisse cuivrée \eTD \bTD \Tpro \eTD \bTD \inP[sec:solenoid] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Effectuez une lecture des codes de défauts (Vpad et moteur diesel), effectuez les réparations nécessaires \eTD \bTD \Tcheck \eTD \bTD \inP[sSec:vw:faultMemory], \inP[vpad:error] \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\subsection {Entretien chaque 600\,h|/|12 mois}
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Entretien chaque 600\,h|/|12 mois \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tchg \eTD \bTD Vidangez le moteur diesel \eTD \bTD \Tpro \eTD \bTD \inP[ssSec:vw:oilDraining] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Remplacez le filtre à huile du moteur diesel \eTD \bTD \Tpro \eTD \bTD \inP[ssSec:vw:oilFilter] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Remplacez le filtre à carburant \eTD \bTD \Tpro \eTD \bTD \inP[ssSec:vw:fuelFilter] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez l’étanchéité du moteur et des composants dans le compartiment du moteur \eTD \bTD \Tpro \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez l’étanchéité et la fixation de la tubulure d’échappement \eTD \bTD \Tpro \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez l’état et la tension de la courroie multi-V, remplacez-la si nécessaire \eTD \bTD \Tpro \eTD \bTD \inP[sSec:vw:belt] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau du liquide de refroidissement du moteur \eTD \bTD \Tcheck \eTD \bTD \inP[sSec:vw:cooling] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Remplacez la cartouche du filtre à air \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Remplacez le filtre retour|/|aspiration hydraulique \eTD \bTD \Tcheck \eTD \bTD \inP[sec:hydraulic] \eTD \eTR
+	\bTR \bTD \Tchg \eTD \bTD Contrôlez le niveau du réservoir hydraulique \eTD \bTD \Tpro \eTD \bTD \inP[sec:hydraulic] \eTD \eTR
+% 	\bTR \bTD \Tlev \eTD \bTD Graissage central (Option): Contrôlez la réserve et la consistance du lubrifiant \eTD \bTD \Tpro \eTD \bTD \inP[main:graissageCentral] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Graissez tous les points de graissage (châssis, direction articulée) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:grasing:plan] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez le niveau du liquide lave||glace \eTD \bTD \Tcheck \eTD \bTD \inP[sec:liqquantities] \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez les éléments de fixation de la cabine \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez les éléments de fixation du moteur au châssis \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la fixation des pompes au moteur diesel \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la fixation du radiateur combiné de refroidissement \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la fixation des essieux \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez|/|réglez la course du levier de frein à main \eTD \bTD \Tpro \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Nettoyez|/|contrôlez l’état des tambours et des garnitures de freins; nettoyez le mécanisme \eTD \bTD \Tpro \eTD \bTD \inP[sec:brake] \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez\index{couple de serrage+roues} le serrage des roues (\torqueSymb\,180\,Nm) \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez la pression des pneus (selon pressions indiquées sur la plaquette dans la cabine) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:pneumatiques] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Contrôlez l’état de la batterie, nettoyer les bornes de contact \eTD \bTD \Tcheck \eTD \bTD \inP[sec:battcheck] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez|/|ajustez la diffusion du faisceau lumineux selon la législation en vigueur \eTD \bTD \Tcheck \eTD \bTD \inP[sec:lighting] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Graissez le noyau des électrovannes avec de la graisse cuivrée \eTD \bTD \Tpro \eTD \bTD \inP[sec:solenoid] \eTD \eTR
+%	\bTR \bTD \Tgen \eTD \bTD Prévention contre la corrosion: contrôlez|/|renouvelez la couche de protection \eTD \bTD \Tspecial \eTD \bTD \inP[sec:anticorrosion] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Effectuez une lecture des codes de défauts (Vpad et moteur diesel), effectuez les réparations nécessaires \eTD \bTD \Tcheck \eTD \bTD \inP[sSec:vw:faultMemory], \inP[vpad:error] \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection {Entretien chaque 1'200\,h|/|24 mois}
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Entretien chaque 1'200\,h|/|24 mois \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tchg \eTD \bTD Vidangez le réservoir hydraulique \eTD \bTD \Tpro \eTD \bTD \inP[sec:hydraulic] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Régénérez le fluide frigorigène R134a de l’installation de climatisation \eTD \bTD \Tspecial \eTD \bTD \emptY \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection {Entretien chaque 2'400\,h|/|4 ans}
+\bTABLE
+
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Entretien chaque 2'400\,h|/|4 ans \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tgen \eTD \bTD Remplacez la courroie de distribution du moteur \eTD \bTD \Tspecial \eTD \bTD \emptY \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection {Entretien chaque 4'800\,h|/|8 ans}
+\bTABLE
+
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Entretien chaque 4'800\,h|/|8 ans \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez|/|remplacez les conduites souples du circuit hydraulique si nécessaire
+	\eTD \bTD \Tpro \eTD \bTD \inP[sec:hydraulic] \eTD \eTR
+	\bTR \bTD \Tlev \eTD \bTD Remplacez la pompe à eau (simultanément avec la courroie crantée)
+	\eTD \bTD \Tspecial \eTD \bTD \emptY \eTD \eTR
+	\eTABLEbody
+\eTABLE
+
+\stopregister[index][wartplan]
+
+\page [yes]
+
+
+\section[sec:schedaggr]{Maintenance des agrégats}
+
+La maintenance\startregister[index][wartplanAgg]{plan d’entretien+agrégats} des agrégats comprend
+les travaux d’entretien réguliers\index{contrôle périodique} et les contrôles quotidien et hebdomadaire:
+
+\starttextbackground[FC]
+ \starttabulate [|w(39mm)B|w(25mm)B|p({\dimexpr\textwidth-(64mm+2.5em)\relax})|]
+ \NC \Pmtpro\enskip\bf Travaux d’entretien \NC\bf 50\,h \NC Premier service après 50\,h\NC \NR
+ \NC \NC\bf 600\,h \NC Entretien régulier chaque 600\,h|/|12 mois \NC \NR
+ \NC \Pmtcheck\enskip\bf Liste de contrôle \NC Quotidien \NC Durant toute la saison de travail \NC\NR
+ \NC \Pmtcheck\enskip\bf Liste de contrôle \NC Hebdomadaire \NC Durant toute la saison de travail \NC\NR
+ \stoptabulate
+\stoptextbackground
+\blank [big]
+
+
+Le plan d’entretien ci||après se réfère aux agrégats standards qui équipent généralement le \pquatre. Considérez également le plan d’entretien de chaque agrégat conçu pour une opération spécifique, non décrit dans le présent manuel.
+
+
+
+\subsection[table:scheduledaily]{Contrôle quotidien}
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Contrôle quotidien \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tgen \eTD \bTD Nettoyez la cuve et le dispositif de recyclage \eTD \bTD \Tcheck \eTD \bTD \inP[sec:cleaning] \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Nettoyez la bouche et le canal d’aspiration \eTD \bTD \Tcheck \eTD \bTD \inP[sec:cleaning] \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+
+\subsection[table:scheduledaily]{Contrôle hebdomadaire}
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Contrôle hebdomadaire \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez l’usure des balais latéraux et du balai frontal (option) \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Contrôlez les gommes et le clapet de la bouche d’aspiration \eTD \bTD \Tpro \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Graissez tous les points de graissage (cuve, balais, bouche d’aspiration) \eTD \bTD \Tcheck \eTD \bTD \inP[sec:grasing:plan] \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+
+\subsection {Entretien après 50\,h~– service unique}
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Entretien après 50\,h~– service unique \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez les dispositifs de fixation des balais \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Réglez les gommes et le clapet de la bouche d’aspiration \eTD \bTD \Tpro \eTD \bTD \emptY \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+
+\subsection {Entretien chaque 600\,h|/|12 mois}
+
+
+\bTABLE
+\bTABLEhead
+\bTR \bTD Type \eTD \bTD Entretien chaque 600\,h|/|12 mois \eTD \bTD Q. \eTD \bTD Ref. \eTD \eTR
+\eTABLEhead
+\bTABLEbody
+	\bTR \bTD \Tfun \eTD \bTD Contrôlez les dispositifs de fixation des balais \eTD \bTD \Tcheck \eTD \bTD \emptY \eTD \eTR
+	\bTR \bTD \Tgen \eTD \bTD Réglez les gommes et le clapet de la bouche d’aspiration \eTD \bTD \Tpro \eTD \bTD \inP[sec:main:suctionMouth] \eTD \eTR
+	\bTR \bTD \Tchg \eTD \bTD Vidangez la pompe à eau haute pression (option) \eTD \bTD \Tpro \eTD \bTD \emptY \eTD \eTR
+\eTABLEbody
+\eTABLE
+
+\stopregister[index][wartplanAgg]
+\stop
+
+
+\stopcomponent
+% vim: fdm=indent

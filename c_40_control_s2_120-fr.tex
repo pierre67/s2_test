@@ -1,0 +1,392 @@
+\startcomponent c_40_control_s2_120-fr
+
+
+\startchapter [title={Éléments de commande du véhicule},
+							reference={chap:ctrl}]
+
+\setups[pagestyle:marginless]
+
+\placefig[here][fig:ctrl:cab:front]{Éléments de commande}
+{\externalfigure[ctrl:cab:front]}
+
+\startcolumns [n=3]
+\startLongleg
+	\item Colonne de direction (\in{§}[sec:steeringColumn])
+	\item Réglage colonne de direction
+	\item Pédales d’accélérateur et frein
+	\item Ordinateur de bord \Vpad\ SN (fonctions détaillées \inP[sec:vpad])
+	\item Console de plafond\crlf  (fonctions détaillées \inP[sec:ctrl:aux])
+	\item Radio|/|MP\,3
+\stopLongleg
+
+\subsubsubject{Équipement optionnel}
+
+\startLongleg [continue]
+	\item Visionneuse de marche arrière
+\stopLongleg
+\stopcolumns
+
+\startsection [title={La colonne de direction},
+							reference={sec:steeringColumn}]
+
+\subsection{Réglage de la colonne de direction}
+
+
+\textDescrHead{Inclinaison du volant} Pressez sur la pédale \Ltwo et ajustez simultanément l’inclinaison de la colonne de direction, lorsque la position est correcte; relâchez le levier pour verrouiller le mécanisme de la colonne.\par
+
+\page[yes]
+
+\setups [pagestyle:normal]
+
+
+\subsection{Commande d’éclairage et signalisation}
+
+\placefig [margin] [fig:column:left]
+{\select{caption}
+{Commande d’éclairage|/|signalisation et bouton rotatif d’allumage des feux}
+{Commande d’éclairage|/|signalisation}}
+{\externalfigure[ctrl:column:left]}
+
+\placefig [margin] [fig:column:right] {Sélecteur de marche}
+{\externalfigure[ctrl:column:right]}
+
+
+\subsubsubject{Bouton rotatif}
+
+\startitemize[width=1.7em]
+\sym{\textSymb{com_lowlight}} Allumage des feux de croisement (tournez le levier \TorqueR).
+\startitemize
+\sym{1} Feux de position
+\sym{2} Feux de croisement
+\stopitemize
+\stopitemize
+
+
+\subsubsubject{Levier de commande combiné}
+
+\startitemize[width=1.7em]
+\sym{\textSymb{com_lowlight}} Non utilisé
+\sym{\textSymb{com_light}} Appel de phare (tirez le levier brièvement vers le haut)
+\sym{\textSymb{com_blink}} Indicateur de direction (levier vers l’avant ou vers l’arrière)
+\sym{\textSymb{com_claxonArrow}} Avertisseur acoustique (pressez le bouton à l’extrémité du levier)
+\sym{\textSymb{com_wipper}} Enclenchement des essuie||glaces.
+\startitemize
+\sym{J} Intermittent
+\sym{O} Arrêt
+\sym{I} 1\high{re} vitesse
+\sym{II} 2\high{e} vitesse
+\stopitemize
+\sym{\textSymb{com_washerArrow}} Lave||glace (pressez sur la couronne à l’extrémité du levier).
+\stopitemize
+
+
+\subsubsubject{Levier sélecteur de marche}
+
+Les fonctions du sélecteur de marche sont détaillées dans le chapitre \about[chap:using], \atpage[sec:using:start].
+
+\stopsection
+
+\page [yes]
+
+
+\startsection [title={Fonctions supplémentaires},
+							reference={sec:ctrl:add}]
+
+
+
+\subsection[sec:ctrl:aux]{Console de plafond}
+
+{\sl La console\index{console de plafond} de plafond est placée face au conducteur.}
+
+\placefig [margin] [fig:console:aux] {Console de plafond}
+{\externalfigure[ctrl:console:aux]}
+
+
+\placefig [margin] [fig:console:climat] {Chauffage et climatisation}
+{\externalfigure[ctrl:console:climat]}
+
+
+\startitemize [unpacked][width=1.7em]
+\sym{\textBigSymb{temoin_retrochauffant}} Rétroviseurs extérieurs chauffants
+\sym{\textBigSymb{temoin_hazard}} Feux de détresse
+\sym{\textBigSymb{temoin_eclairage_L}} Projecteurs de travail
+\stopitemize
+
+
+\subsubsubject{Équipement optionnel}
+
+\startLeg [unpacked][width=1.7em]
+\sym{\textBigSymb{temoin_buse}} Pompe à eau haute pression pour pistolet d’eau\crlf {\sl voir fonctionnement \atpage[sec:using:water:spray]}
+\sym{\textBigSymb{temoin_aspiration_manuelle}} Enclenchement de la turbine pour tuyau d’aspiration à main\crlf {\sl voir fonctionnement \atpage[sec:using:suction:hose]}
+\stopLeg
+
+\subsection[sec:ctrl:climat]{Console de chauffage et climatisation}
+
+{\sl La console\index{console de chauffage} est placée au dos de la cabine entre les deux sièges.}
+
+\startitemize [unpacked][width=23mm]
+\sym{\bf 0\quad I\quad II\quad III} Interrupteur rotatif de commande de ventilation
+\sym{\externalfigure[tirette_chauffage][height=1em]} Tirette de réglage de la température de l’air pulsé
+\stopitemize
+
+\subsubsubject{Équipement optionnel}
+
+\startitemize [unpacked][width=1.7em]
+\sym{\textBigSymb{temoin_climat_bk}} Climatisation
+\stopitemize
+
+\page [yes]
+
+\setups [pagestyle:bigmargin]
+
+
+\subsection[sec:ctrl:central]{Console centrale}
+
+{\sl La console\index{console centrale} centrale est placée entre les sièges du conducteur et du passager.}
+
+\placefig [margin] [fig:console:central] {Console centrale}
+{\externalfigure[ctrl:console:central]}
+
+\subsubsubject{Humectage des balais}
+
+\startLeg [unpacked][width=1.7em]
+\sym{\textBigSymb{temoin_busebalais}} Pompe à eau basse pression\index{pompe à eau}
+pour le système\index{pompe à eau+humectage} d’humectage des balais (1\high{re} position~= automatique,
+2\high{e} position~= permanent).
+\stopLeg
+
+
+\subsubsubject{Basculement de la cuve à déchets}
+
+
+\setupinmargin[right][style=normal]
+\inright{%
+\startitemize
+\sym{\textSymb{mand_readtheoperatingmanual}} Veuillez prendre en considération les instructions
+relatives à l’utilisation du frein à main \atpage[sec:using:stop].
+\stopitemize}
+
+
+
+\startLeg [unpacked][width=1.7em]
+\sym{\textBigSymb{temoin_kipp2}} Basculement de la cuve à déchet.
+
+Le frein\index{cuve à déchets+basculement} à main doit être tiré et le levier sélecteur de marche placé
+en position neutre pour pouvoir basculer la cuve.
+\stopLeg
+
+
+\subsubsubject{Arrêt d’urgence}
+
+\starttextbackground [FC]
+\startPictPar
+\externalfigure[Emergency_Stop][Pict]
+\PictPar
+En cas d’urgence\index{arrêt d’urgence}, stopez la machine et les dispositifs de balayage|/|aspiration en pressant l’interrupteur \quote{coup||de||poing}.
+\stopPictPar
+\stoptextbackground
+
+
+\subsection[sec:foot:switch]{Interrupteur à pied}
+
+\placefig [margin] [fig:foot:switch] {Interrupteur à pied}
+{\vskip 60pt
+\externalfigure[work:foot:switch]}
+
+
+Un interrupteur\index{interrupteur à pied}\index{console+plancher} placé au pied de la colonne de direction (\in{fig.}[fig:foot:switch])
+permet d’abaisser rapidement les balais au sol,
+lorsque le véhicule rencontre un brusque changement de déclivité (\eG lors de la descente d’un trottoir ou au sommet d’une côte).
+
+\page [yes]
+
+\stopsection
+
+\page[yes]
+
+\setups [pagestyle:marginless]
+
+\startsection[title={Console multifonction},
+							reference={ctrl:console:middle}]
+
+\startlocalfootnotes
+
+\startfigtext[left]{Console multifonction}
+{\externalfigure[overview:joy:large]}
+
+\subsubsubject{Fonction des joysticks}
+
+\textDescrHead{Sans balai frontal (ou inactif):}
+Les joysticks commandent chacun leur balai respectif: lever/baisser (\textSymb{joystick_aa}) ou gauche/droite (\textSymb{joystick_gd}).
+Le joystick de gauche commande le balai gauche le joystick droit le balai droit.\footnote{%
+Pour ajuster la position des balais latéraux lorsque le véhicule est équipé d’un balai frontal (option),
+il faut désactiver le balai frontal (presser la touche \textSymb{joy_key_frontbrush_act}).
+}\par
+
+
+\textDescrHead{Avec balai frontal activé:}
+Le joystick gauche permet de lever et baisser le balai frontal (\textSymb{joystick_aa})
+ou de le diriger vers la gauche et vers la droite (\textSymb{joystick_gd}).
+Le joystick droit permet d’incliner le balai sur son axe longitudinal (\textSymb{joystick_aa})
+ou transversal (\textSymb{joystick_gd}).
+
+\placelocalfootnotes %[height=\textheight]
+
+\stopfigtext
+
+\stoplocalfootnotes
+
+\vfill
+
+
+\subsubsubject{Fonction des touches latérales}
+
+\startcolumns
+
+\startPictList
+\VPcltr
+\PictList
+Tempomat: augmenter la vitesse mémorisée
+\stopPictList\vskip -3pt
+
+\startPictList
+\VPclbr
+\PictList
+Tempomat: diminuer la vitesse mémorisée
+\stopPictList\vskip -3pt
+
+\startPictList
+\VPcrtr
+\PictList
+Lever la bouche d’aspiration
+\stopPictList
+
+
+
+\startPictList
+\VPcrbr
+\PictList
+Baisser la bouche d’aspiration
+\stopPictList\vskip -3pt
+
+\startPictList
+\VPcrtf
+\PictList
+Ouvrir le clapet pour gros déchets (à l’avant de la bouche d’aspiration)
+\stopPictList\vskip -3pt
+
+\startPictList
+\VPcrbf
+\PictList
+Fermer le clapet pour gros déchets
+\stopPictList
+
+\stopcolumns
+
+
+
+
+\subsubsubject{Fonction des touches de commande avec symbole}
+
+
+\startcolumns
+
+\startSymVpad
+\externalfigure[joy:stop]
+\SymVpad
+\textDescrHead{Arrêt} Désactiver le service actif.
+
+Pressez 1\:× = désactiver le 3\high{e} balai\crlf Pressez 2\:× = tout désactiver
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:tempomat]
+\SymVpad
+\textDescrHead{Tempomat} Activer le tempomat\note[drive:tempomat] et enregistrer la vitesse actuelle.
+Freinez ou pressez à nouveau \textSymb{joy:tempomat} pour désactiver.
+Accélérez|/|décélérez avec les touches latérales.
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:ftbrs:minus]
+\SymVpad
+\textDescrHead{Rotation des balais} Diminuer la vitesse de rotation des balais latéraux ou du balai frontal (si équipé).
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:ftbrs:plus]
+\SymVpad
+\textDescrHead{Rotation des balais} Augmenter la vitesse de rotation des balais latéraux ou du balai frontal
+(si équipé).
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:eng:minus]
+\SymVpad
+\textDescrHead{Régime moteur} Diminuer le régime du moteur diesel.
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:eng:plus]
+\SymVpad
+\textDescrHead{Régime moteur} Augmenter le régime du moteur diesel.\crlf
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:suc]
+\SymVpad
+\textDescrHead{Aspiration} Activer le système d’aspiration: abaisse la bouche d’aspiration,
+enclenche la turbine et la pompe à eau de recyclage\note[recycling:waterpump].
+Pressez \textSymb{joy:stop} pour désactiver le système.
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:sucbrs]
+\SymVpad
+\textDescrHead{Balayage|/|aspiration} Activer le système d’aspiration: abaisse la bouche d’aspiration,
+abaisse et positionne les balais latéraux,
+enclenche la turbine, la rotation des balais et la pompe à eau de recyclage\note[recycling:waterpump].
+Pressez \textSymb{joy:stop} pour désactiver le système.
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:ftbrs:act]
+\SymVpad
+\textDescrHead{Balai frontal actif} Pressez cette touche pour activer|/|désactiver le balai frontal.
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:ftbrs:right]
+\SymVpad
+\textDescrHead{Balai frontal à gauche} Pressez cette touche pour travailler avec le balai frontal placé sur le côté gauche
+(sens de rotation à droite).
+\stopSymVpad
+
+\startSymVpad
+\externalfigure[joy:ftbrs:left]
+\SymVpad
+\textDescrHead{Balai frontal à droite} Pressez cette touche pour travailler avec le balai frontal placé sur le côté droit
+(sens de rotation à gauche).
+\stopSymVpad
+
+\stopcolumns
+
+\footnotetext [drive:tempomat] {Pressez plus d’une seconde sur la touche pour activer le tempomat.}
+\footnotetext [recycling:waterpump] {+ la pompe à eau claire si l’interrupteur \textSymb{temoin_busebalais}
+est sur \quote{automatique} (voir \in[sec:ctrl:central], \atpage[sec:ctrl:central]).}
+\stopsection
+
+\stopchapter
+
+\stopcomponent
+
+
+
+
+
+
+
+
+
+
+
